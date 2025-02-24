@@ -1,0 +1,8 @@
+{% for request in requests %}
+    <div class="request">
+        <h3>{{ request.service_type }}</h3>
+        <p>Status: <strong>{{ request.status }}</strong></p>
+        <p>Submitted: {{ request.created_at }}</p>
+    </div>
+{% endfor %}
+

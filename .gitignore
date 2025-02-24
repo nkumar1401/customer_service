@@ -1,0 +1,19 @@
+# .env
+# db.sqlite3
+# __pycache__/
+# media/
+# static/
+
+
+# Virtual environment
+venv/
+
+# Python cache files
+__pycache__/
+
+# Django database (SQLite)
+db.sqlite3
+
+# Static & media files (optional)
+static/
+media/
