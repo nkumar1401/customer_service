@@ -20,7 +20,6 @@ class ServiceRequest(models.Model):
         ('New Connection', 'New Connection'),
         ('Other', 'Other'),
     ]
-
     customer = models.ForeignKey(User, on_delete=models.CASCADE)
     service_type = models.CharField(max_length=50, choices=SERVICE_TYPE_CHOICES)
     description = models.TextField()

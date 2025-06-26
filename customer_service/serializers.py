@@ -7,5 +7,5 @@ class ServiceRequestSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = ServiceRequest
-        fields = ['id', 'customer', 'customer_name', 'service_type', 'description', 'attachment', 'status', 'created_at', 'updated_at']
+        fields = '__all__'
         read_only_fields = ['customer', 'status', 'created_at', 'updated_at']
